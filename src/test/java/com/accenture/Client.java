@@ -2,6 +2,9 @@ package com.accenture;
 
 public class Client {
 	
+	private void sub() {
+
+	}
 	private static void search() throws EmployeeNotFoundException {
 			String id ="1234";
 			if (id.equals("234")) {
