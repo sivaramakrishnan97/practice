@@ -12,9 +12,14 @@ public class Testing {
 		
 		WebDriver driver= new ChromeDriver();
 		
+
 		driver.get("https://www.catch.com.au/");
 		String currentUrl2 = driver.getCurrentUrl();
 		System.out.println(currentUrl2);
+
+		driver.get("https://omrbranch.com/");
+		String currentUrl5 = driver.getCurrentUrl();
+		System.out.println(currentUrl5);
 		
 		driver.get("https://www.facebook.com/");
 		String currentUrl = driver.getCurrentUrl();
